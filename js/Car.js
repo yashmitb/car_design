@@ -1,6 +1,6 @@
 AFRAME.registerComponent("car-model", {
   schema: {
-    modelRef: { type: "string", default: "Car.glb" },
+    modelRef: { type: "string", default: "car.glb" },
   },
   init: function () {
     // Do something when component first attached.
